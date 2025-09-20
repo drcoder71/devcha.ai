@@ -30,12 +30,10 @@ Loyihaning maqsadi: foydalanuvchi prompti asosida fake ma’lumotlarni yaratish 
 
 ## Kelajakdagi rejalar
 
-- Realtime Like / Dislike
-- Data export (CSV / JSON)
+- Jamoa bilan real time ishlash
 - Admin panel
-- Multi-language support
+- Data export (CSV / JSON)
 
 ## ☕ Devcha.ai sizga foydali bo‘lsa, bir stakan kofe bilan motivatsiya berishingiz mumkin ☕
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/drcoder71)
-
