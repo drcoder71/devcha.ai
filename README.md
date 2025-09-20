@@ -1,6 +1,7 @@
+![Logo](./assets/logo.png)
+
 # Devcha.ai
 
-![Logo](./assets/logo.png)
 **Maqsad:** Devcha.ai – dasturchilar uchun fake data generator va API tizimi.  
 Loyihaning maqsadi: foydalanuvchi prompti asosida fake ma’lumotlarni yaratish va ularni loyihalarda ishlatish imkonini berish.
 
@@ -26,3 +27,15 @@ Loyihaning maqsadi: foydalanuvchi prompti asosida fake ma’lumotlarni yaratish 
 - **Access / Refresh token:** JWT bilan auth tizimi
 - **Protected routes:** Access token orqali himoyalangan API’lar
 - **Like / Dislike (realtime / future):** Generated data ustida funktsiyalar
+
+## Kelajakdagi rejalar
+
+- Realtime Like / Dislike
+- Data export (CSV / JSON)
+- Admin panel
+- Multi-language support
+
+## ☕ Devcha.ai sizga foydali bo‘lsa, bir stakan kofe bilan motivatsiya berishingiz mumkin ☕
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/drcoder71)
+
