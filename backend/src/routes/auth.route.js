@@ -1,24 +1,14 @@
 const express = require("express");
-const passport = require("passport");
+const authController = require("../controllers/auth.controller");
+const validateMiddleware = require("../middlewares/validation.middleware");
+const authSchema = require("../validations/user.validation");
 
-const router = express.Router();
+const route = express.Router();
 
-// Google login boshlash
-router.get(
-  "/google",
-  passport.authenticate("google", { scope: ["profile", "email"] })
+route.post(
+  "login",
+  validateMiddleware(authSchema),
+  authController.loginController
 );
 
-// Google callback
-router.get(
-  "/google/callback",
-  passport.authenticate("google", { failureRedirect: "/" }),
-  (req, res) => {
-    res.json({
-      message: "Login successful ✅",
-      user: req.user,
-    });
-  }
-);
-
-module.exports = router;
+module.exports = route;
